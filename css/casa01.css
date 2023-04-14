@@ -1,0 +1,45 @@
+.grid-apresentacao{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 1em;
+}
+
+.grid-apresentacao-informacoes{
+    padding: 10em;
+}
+
+.grid-apresentacao-informacoes h1{
+    font-size: 46px;
+    line-height: 24px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    padding: 1em 0;
+}
+
+.grid-apresentacao-informacoes h3{
+    line-height: 20px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+.grid-apresentacao-informacoes-bloco{
+    padding: 2em 0;
+    border-top: solid 1px #D1D1D1;
+}
+
+.grid-apresentacao-informacoes-bloco p{
+    letter-spacing: .1em;
+    padding: 2px 0;
+}
+
+.container-imagens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projeto-casa-imagens{
+    margin: 1em 0;
+    max-width: 33%;
+    width: 100%;
+}
