@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "nomeProjeto": "Projeto #1",
+    "fichaTecnica":{
+      "terreno": "2000m²",
+      "areaConstruida": "1200m²"
+    },
+    "localizacao": "Itu/SP",
+    "equipe": "John Doe",
+    "imagens": {
+      "img1": "https://sala03.arq.br/upload/galeria/projetos/3d11e228f919ab4ea459c1278183cbc0.jpg",
+      "img2": "https://sala03.arq.br/upload/galeria/projetos/3d11e228f919ab4ea459c1278183cbc0.jpg",
+      "img3": "https://sala03.arq.br/upload/galeria/projetos/3d11e228f919ab4ea459c1278183cbc0.jpg",
+      "img4": "https://sala03.arq.br/upload/galeria/projetos/3d11e228f919ab4ea459c1278183cbc0.jpg"
+    }
+  },
+  {
+    "id": 2,
+    "nomeProjeto": "Projeto #2",
+    "fichaTecnica":{
+      "terreno": "5000m²",
+      "areaConstruida": "2000m²"
+    },
+    "localizacao": "Itu/SP",
+    "equipe": "John Doe",
+    "imagens": {
+      "img1": "https://sala03.arq.br/upload/galeria/projetos/3d11e228f919ab4ea459c1278183cbc0.jpg",
+      "img2": "https://sala03.arq.br/upload/galeria/projetos/3d11e228f919ab4ea459c1278183cbc0.jpg",
+      "img3": "https://sala03.arq.br/upload/galeria/projetos/3d11e228f919ab4ea459c1278183cbc0.jpg",
+      "img4": "https://sala03.arq.br/upload/galeria/projetos/3d11e228f919ab4ea459c1278183cbc0.jpg"
+    }
+  }
+]

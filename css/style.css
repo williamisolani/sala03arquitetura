@@ -1,0 +1,13 @@
+@import url("casa01.css");
+@import url("casa02.css");
+
+:root {
+    --fonte-principal: 'Roboto Condensed';
+    --cor-off-white: #F5F5F5;
+}
+
+body{
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-off-white);
+    font-size: 16px;
+}

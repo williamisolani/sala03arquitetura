@@ -1,0 +1,51 @@
+header{
+    padding: 3em 8em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+}
+
+.projetos{
+    padding: 6em 5em;
+}
+
+.projetos-texto h1{
+    font-size: 46px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.projetos-texto p{
+    line-height: 24px;
+    font-weight: 400;
+    padding: 2em 0 4em 0;
+    max-width: 650px;
+    letter-spacing: 0.1em;
+    border-bottom: solid 1px #D1D1D1;
+
+}
+
+.casas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.casas a {
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.casas img {
+    width: 100%;
+    transition: 250ms;
+}
+
+.casas img:hover{
+    transform: scale(0.97);
+    transition: 500ms;
+}
