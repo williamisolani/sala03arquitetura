@@ -28,24 +28,31 @@ header{
 
 .casas {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+    justify-content: space-evenly;
+    max-width: 100%;
 }
 
-.casas a {
-    flex-grow: 1;
-    margin: 0;
-    padding: 0;
+.casas-item {
+    position: relative;
 }
 
-.casas img {
-    width: 100%;
+.casas-legenda {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FFFFFF;
+    padding: 1em;
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+}
+
+.casas-item:hover .casas-legenda {
+    opacity: 1;
+}
+
+.casas-item:hover{
+    transform: scale(1.02);
     transition: 250ms;
-}
-
-.casas img:hover{
-    transform: scale(0.97);
-    transition: 500ms;
 }
