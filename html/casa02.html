@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sala 03 Arquitetura - Projeto #2</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="../html/index.html"><img src="../img/logo-sala03.svg" alt="Logo do Sala 03 Arquitetura"></a>
+        <img src="../img/menu-sala03.svg" alt="Menu dropdown">
+    </header>
+
+    <section class="container">
+        <div class="grid-apresentacao">
+            <div class="grid-apresentacao-informacoes">
+                <h1>PROJETO #<span id="numero-projeto"></span></h1>
+                
+                <div class="grid-apresentacao-informacoes-bloco">
+                    <h3>FICHA TÉCNICA</h3>
+                    <p>Terreno: <span id="terreno"></span></p>
+                    <p>Área Construída: <span id="area"></span></p>
+                </div>
+
+                <div class="grid-apresentacao-informacoes-bloco">
+                    <h3>LOCALIZAÇÃO</h3>
+                    <p id="localizacao"></p>
+                </div>
+
+                <div class="grid-apresentacao-informacoes-bloco">
+                    <h3>EQUIPE</h3>
+                    <p id="nomes-equipe"></p>
+                </div>
+            </div>
+
+            <img id="foto-destaque" src="" class="grid-apresentacao-imagem-principal foto-destacada" ></img>
+
+        </div>
+        
+        <div class="container-imagens">
+            <img id="foto-2" src="" class="projeto-casa-imagens"></img>
+            <img id="foto-3" src="" class="projeto-casa-imagens"></img>
+            <img id="foto-4" src="" class="projeto-casa-imagens"></img>
+        </div>
+        
+    </section>
+    <script src="../js/projetos.js"></script>
+</body>
+</html>

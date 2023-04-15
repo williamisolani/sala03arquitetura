@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sala 03 Arquitetura - Projeto #1</title>
+    <title>Sala 03 Arquitetura - Projeto #3</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,39 +21,36 @@
     <section class="container">
         <div class="grid-apresentacao">
             <div class="grid-apresentacao-informacoes">
-                <h1>PROJETO #1</h1>
+                <h1>PROJETO #<span id="numero-projeto"></span></h1>
                 
                 <div class="grid-apresentacao-informacoes-bloco">
                     <h3>FICHA TÉCNICA</h3>
-                    <p>Terreno: 2006,00m²</p>
-                    <p>Área Construída: 600,00m²</p>
+                    <p>Terreno: <span id="terreno"></span></p>
+                    <p>Área Construída: <span id="area"></span></p>
                 </div>
 
                 <div class="grid-apresentacao-informacoes-bloco">
                     <h3>LOCALIZAÇÃO</h3>
-                    <p>Itu / São Paulo</p>
+                    <p id="localizacao"></p>
                 </div>
 
                 <div class="grid-apresentacao-informacoes-bloco">
                     <h3>EQUIPE</h3>
-                    <p>John Doe</p>
+                    <p id="nomes-equipe"></p>
                 </div>
             </div>
 
-            <img src="../img/casa01-foto1.svg" class="grid-apresentacao-imagem-principal foto-destacada"></img>
+            <img id="foto-destaque" src="" class="grid-apresentacao-imagem-principal foto-destacada" ></img>
 
         </div>
         
         <div class="container-imagens">
-            <img src="../img/casa01-foto2.svg" class="projeto-casa-imagens"></img>
-            <img src="../img/casa01-foto3.svg" class="projeto-casa-imagens"></img>
-            <img src="../img/casa01-foto4.svg" class="projeto-casa-imagens"></img>
-            <img src="../img/casa01-foto5.svg" class="projeto-casa-imagens"></img>
-            <img src="../img/casa01-foto6.svg" class="projeto-casa-imagens"></img>
+            <img id="foto-2" src="" class="projeto-casa-imagens"></img>
+            <img id="foto-3" src="" class="projeto-casa-imagens"></img>
+            <img id="foto-4" src="" class="projeto-casa-imagens"></img>
         </div>
         
     </section>
-
+    <script src="../js/projetos.js"></script>
 </body>
-
 </html>

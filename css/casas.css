@@ -43,3 +43,8 @@
     max-width: 33%;
     width: 100%;
 }
+
+.foto-destacada{
+    width: auto;
+    height: 900px;
+}
