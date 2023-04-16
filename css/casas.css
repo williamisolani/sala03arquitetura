@@ -44,6 +44,11 @@
     width: 100%;
 }
 
+.projeto-casa-imagens:hover{
+    transform: scale(1.02);
+    transition: 250ms;
+}
+
 .foto-destacada{
     width: auto;
     height: 900px;
