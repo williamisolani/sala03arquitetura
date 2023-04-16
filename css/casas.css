@@ -44,9 +44,11 @@
     width: 100%;
 }
 
-.projeto-casa-imagens:hover{
+.projeto-casa-imagens:hover, 
+.foto-destacada:hover {
     transform: scale(1.02);
     transition: 250ms;
+    cursor: pointer;
 }
 
 .foto-destacada{
